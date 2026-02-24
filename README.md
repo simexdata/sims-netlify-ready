@@ -43,3 +43,4 @@ Netlify автоматично пренасочва `/api/*` към `/.netlify/f
 
 ### Бележка
 Файлът `server.js` е оставен като референция (оригиналният Express вариант). В Netlify се използва `netlify/functions/api.js`.
+"# sims-netlify-ready" 
