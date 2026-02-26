@@ -1,13 +1,29 @@
 {
   "name": "sims-v6-2",
-  "private": true,
   "version": "6.2.0",
+  "private": true,
+  "description": "belia",
+  "keywords": [
+    "69"
+  ],
+  "homepage": "https://github.com/simexdata/sims-netlify-ready#readme",
+  "bugs": {
+    "url": "https://github.com/simexdata/sims-netlify-ready/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simexdata/sims-netlify-ready.git"
+  },
+  "license": "ISC",
+  "author": "Simex Data Ltd.",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm install && npm run build",
     "preview": "vite preview",
-    "lint": "node -c netlify/functions/api.js"
+    "lint": "node -c netlify/functions/api.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.46.1",
